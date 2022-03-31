@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+* {
+    font-family: 'Montserrat';
+}
+
+
+body, h1, h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+    /* https://developer.mozilla.org/ko/docs/Web/CSS/min-width */
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebebeb;
+    /* box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1); */
+    box-shadow: 0 1px 20px 0 rgba(255,192,203,0.5);
+}
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+    /* display: inline; */
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+    /* display: inline; */
+}
+
+.float-wrap {
+    overflow: hidden;
+    /* float는 둥둥 떠다니는 것이라 겹칠 수 있어 float의 영향을 받지 않게 함 */
+}
+
+.desc-text {
+    font-size: 9px;
+
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.title-box {
+    text-align: right;
+}
+
+.sns-img {
+    width: 12px;
+    height: 12px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
